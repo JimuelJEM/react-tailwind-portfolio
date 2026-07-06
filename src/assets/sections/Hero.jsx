@@ -58,7 +58,7 @@ export const Hero = () => {
                             animationDelay: `${Math.random() * 5}s`
                         }}
                     >
-                        ❄
+                        Ⓙ
                     </div>
                 ))}
             </div>
