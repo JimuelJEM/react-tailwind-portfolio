@@ -40,7 +40,7 @@ export const About = () => {
   }, []);
 
   return (
-    <section id="about" className="py-32 relative overflow-hidden">
+    <section id="about" className="py-32 relative min-h-screen flex items-center overflow-hidden">
 
       <div className="absolute inset-0 opacity-30"
         style={
@@ -78,7 +78,7 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="glass rounded-2xl animate-fade-in animation-delay-400">
+            {/* <div className="glass rounded-2xl animate-fade-in animation-delay-400">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src="/typing.gif"
@@ -86,7 +86,8 @@ export const About = () => {
                   className="w-full h-80 object-cover rounded-xl"
                 />
               </div>
-            </div>
+            </div> */}
+            
           </div>
 
           {/* Right Column - Hilights */}
